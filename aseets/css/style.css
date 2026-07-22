@@ -1,0 +1,158 @@
+:root {
+    --gradient-color-1: #FFAB53;
+    --gradient-color-2: #FFD0A7;
+    --bg-button: white;
+    --text-h1-color: white;
+    --primary: #FF6947;
+    --spacing: 3rem;
+    --opcaity: 0.6;
+
+}
+
+body {
+    background: linear-gradient(50deg, var(--gradient-color-1), var(--gradient-color-2));
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.h-subheading {
+    color: var(--text-h1-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.h-heading {
+    color: var(--text-h1-color);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+
+.explore-more i {
+    color: white;
+    font-size: 3rem;
+}
+
+.explore-more a {
+    color: var(--text-h1-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.rating-icon i {
+    color: var(--primary);
+}
+
+.rating-box-text {
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.rating-box {
+    width: 220px;
+    height: 90px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.rating-box1-rotate {
+    transform: rotate(8deg);
+    opacity: 0.7;
+}
+
+.btn-explore {
+    color: var(--gradient-color-1);
+    font-weight: 500;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.hot-items-heading{
+    color: var(--text-h1-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.hot-items-subheading{
+    color: var(--text-h1-color);
+    font-size: 1.4rem;
+    
+}
+.p-background{
+    background-image: url("../images/products/product_card.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.p-background div , .p-background i{
+    color: var(--text-h1-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.p-background img{
+    width: 220px;
+    filter: drop-shadow(5px 5px 10px #292929b4);
+}
+
+
+
+
+@media (min-width : 576px) {
+
+    .h-heading {
+        font-size: 2rem;
+    }
+
+    .h-subheading {
+        font-size: 1.1rem;
+    }
+
+    .rating-box {
+        width: 150px;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width : 786px) {
+
+    .h-heading {
+        font-size: 3rem;
+    }
+
+    .h-subheading {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width : 992px) {
+
+    .h-heading {
+        font-size: 4rem;
+    }
+
+    .h-subheading {
+        font-size: 1.5rem;
+    }
+
+    .rating-box {
+        width: 250px;
+        height: 110px;
+        margin-bottom: 2rem;
+    }
+
+    .rating-box-text {
+        font-size: 1.2rem; 
+    }
+}
