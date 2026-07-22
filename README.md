@@ -1,2 +1,2 @@
 # Burger Website
-Burger Website UI.
+Burger Website
